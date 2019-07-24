@@ -5,7 +5,7 @@
         <sidebar></sidebar>
       </div>
       <div class="wky-dash__rigth">
-        RIGTH
+        <header-user></header-user>
       </div>
     </div>
   </div>
@@ -13,11 +13,13 @@
 
 <script>
 import Sidebar from './components/Sidebar';
+import HeaderUser from './components/Header';
 
 export default {
   name: 'app',
   components: {
-    Sidebar
+    Sidebar,
+    HeaderUser
   },
   data () {
     return {
